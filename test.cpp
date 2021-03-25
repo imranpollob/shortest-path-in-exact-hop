@@ -146,7 +146,7 @@ int main()
 
     if (shortestPathWight == 1000000000)
     {
-        cout << "No path possible path with selected hop" << endl;
+        cout << "No path possible with selected hop" << endl;
     }
     else
     {
