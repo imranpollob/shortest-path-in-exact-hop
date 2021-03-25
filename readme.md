@@ -3,19 +3,19 @@ Here, we will find out the shortest weighted path between two nodes of a graph u
 
 Consider the following graph:
 
-![graph](1.png)
+![graph](img/1.png)
 
 Solution with 3 hops:
 
-![graph](2.png)
+![graph](img/2.png)
 
 Solution with 2 hops:
 
-![graph](3.png)
+![graph](img/3.png)
 
 Solution with 1 hop:
 
-![graph](4.png)
+![graph](img/4.png)
 
 Sample input:
 ```
