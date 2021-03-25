@@ -77,9 +77,11 @@ private:
         {
             if (mp.find(edges[pos][i].to) == mp.end())
             {
-                // If current adjacent node is not in visited stack, calculate result recursively from curernt adjacent node
+                // If current adjacent node is not in visited stack,
+                // calculate result recursively from curernt adjacent node
                 int currentRes = edges[pos][i].weight +
                                  findPathRecursively(edges[pos][i].to, remainingHop - 1, mp);
+
                 if (currentRes < res)
                 {
                     // Got better result so updating result and path
